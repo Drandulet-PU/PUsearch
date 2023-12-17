@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pusearch.Controller">
+    <children>
+        <ScrollPane hbarPolicy="NEVER" prefHeight="602.0" prefWidth="900.0" style="-fx-background-color: #333;" styleClass="background" stylesheets="@scrollpane.css">
+            <content>
+                <AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #333;">
+                    <children>
+                        <AnchorPane fx:id="s2_0" prefHeight="117.0" prefWidth="900.0" style="-fx-background-color: #222;">
+                            <children>
+                                <Button fx:id="s2_1" layoutX="6.0" layoutY="12.0" mnemonicParsing="false" onAction="#to1" style="-fx-background-color: #222;" text="PUsearch" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Italic" size="44.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                  <Text fx:id="s2_2" fill="WHITE" layoutX="50.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мы не прапогандируем наркоти, не прапогандируем насилие, не прапогандируем жестокость, не прапогандируем ebuchi образ жизни. Мы не несем ответственности за распространение на сайте ЦП, арабов, огнестельного оружия, мануалов по вбиву и скама. Нам вообще по\n" textAlignment="CENTER" wrappingWidth="800.0">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="s2_3" fitHeight="247.0" fitWidth="265.0" layoutX="318.0" layoutY="339.0">
+                     <image>
+                        <Image url="@sticker.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="88.0" layoutY="363.0" prefHeight="200.0" prefWidth="200.0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
